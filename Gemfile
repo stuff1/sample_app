@@ -5,6 +5,8 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'nokogiri'
+
 gem 'pg'
 
 group :development do
@@ -13,7 +15,12 @@ end
 
 group :test do
   gem 'rspec'
+  gem 'rspec-core'
+  gem 'rspec-expectations'
+  gem 'rspec-mocks'
+  gem 'rspec-rails'
   gem 'webrat'
+  gem 'spork'
 end
 
 # Gems used only for assets and not required
